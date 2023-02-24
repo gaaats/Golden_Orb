@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mananaiannde"
+    app:startDestination="@id/fiirirititiisstststFragment">
+
+    <fragment
+        android:id="@+id/fiirirititiisstststFragment"
+        android:name="com.socialquantum.w.frgtgthy.FiirirititiisstststFragment"
+        android:label="fragment_fiirirititiisststst"
+        tools:layout="@layout/fragment_fiirirititiisststst" >
+        <action
+            android:id="@+id/action_fiirirititiisstststFragment_to_seeccococndndndFragment"
+            app:destination="@id/seeccococndndndFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeccococndndndFragment"
+        android:name="com.socialquantum.w.frgtgthy.SeeccococndndndFragment"
+        android:label="fragment_seeccococndndnd"
+        tools:layout="@layout/fragment_seeccococndndnd" >
+        <action
+            android:id="@+id/action_seeccococndndndFragment_to_thiiririddsididFragment"
+            app:destination="@id/thiiririddsididFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thiiririddsididFragment"
+        android:name="com.socialquantum.w.frgtgthy.ThiiririddsididFragment"
+        android:label="fragment_thiiririddsidid"
+        tools:layout="@layout/fragment_thiiririddsidid" >
+        <action
+            android:id="@+id/action_thiiririddsididFragment_to_fouuururururFragment"
+            app:destination="@id/fouuururururFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fouuururururFragment"
+        android:name="com.socialquantum.w.frgtgthy.FouuururururFragment"
+        android:label="fragment_fouuurururur"
+        tools:layout="@layout/fragment_fouuurururur" >
+        <action
+            android:id="@+id/action_fouuururururFragment_to_fivivieveiveiveiveFragment"
+            app:destination="@id/fivivieveiveiveiveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fivivieveiveiveiveFragment"
+        android:name="com.socialquantum.w.frgtgthy.FivivieveiveiveiveFragment"
+        android:label="fragment_fivivieveiveiveive"
+        tools:layout="@layout/fragment_fivivieveiveiveive" />
+</navigation>
